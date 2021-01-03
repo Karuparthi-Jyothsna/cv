@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <style>
+  label{
+    margin: 10px;
+  }
+  </style>
+  <ol>
+
+    <li>
+      <h3>WHATSAPP</h3>
+    </li>
+    <p>9701793021</p>
+    <li>
+      <h3>INSTAGRAM</h3>
+    </li>
+    <p><a href="https://www.instagram.com/jojo_smily8/">jojo_smiley8</a></p>
+  </ol>
+  <form enctype="text/plain" action="mailto:karuparthitejovathi@gmail.com" method="post">
+    <label>Your Name</label>
+    <input type="text" name="Your Name" value="" /><br /><br />
+    <label>Password </label>
+<input type="password" name="Password" value="" /><br /><br />
+  <label>Choose a File</label><input type="file" name="File" value="" /><br /><br />
+  <label>Choose date:</label><input type="date" name="Date" value="" /><br /><br />
+  <label>Choose radio:</label><input type="radio" name="Radio" value="" /><br /><br />
+  <label>Range:</label><input type="range" name="Range" value="50" min="0" max="100" list="tickmarks" oninput="document.getElementById('RANGE').innerHTML = this.value"/>
+<label id="RANGE"></label>
+<datalist id="tickmarks">
+  <option value="0" label="0%"></option>
+  <option value="10"></option>
+  <option value="20"></option>
+  <option value="30"></option>
+  <option value="40"></option>
+  <option value="50" label="50%"></option>
+  <option value="60"></option>
+  <option value="70"></option>
+  <option value="80"></option>
+  <option value="90"></option>
+  <option value="100" label="100%"></option>
+</datalist>
+<br /><br />
+<label>Enter your EMAIL:</label>
+<input type="email" name="Your Email ID" value="" /><br /><br />
+<label>Your Message</label>
+<textarea name="Message" rows="8" cols="80"/></textarea>
+<br /><br />
+
+
+<label></label>
+  <br />  <br />  <label>Your fav color :</label><input type="color" name="Your Fav Color"/>
+        <br /><br />
+
+          <label>Terms and Conditions apply</label>
+          <input type="checkbox" name="Terms and Condition apply" value="" required/>
+    <input type="submit" name="submit"/>
+
+  </form>
+</body>
+
+</html>
